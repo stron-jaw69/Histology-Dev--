@@ -3,7 +3,7 @@ from PIL import Image
 from utils import recv_img
 
 HOST = '127.0.0.1'
-PORT = 40007
+PORT = 50007
 
 def server():
     p = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
